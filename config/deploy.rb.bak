@@ -42,9 +42,9 @@ end
 set :user, "user09042002"
 
 
-# allow SSH-Key-Forwarding
-set :ssh_options, { :forward_agent => true }  
-ssh_options[:keys] = [File.join(ENV["HOME"], ".ssh", "id_rsa")]
+# password to login to the target server
+set :password, "qBWtvPArpI"
+
 
 ## Application name and repository
 
@@ -52,7 +52,7 @@ ssh_options[:keys] = [File.join(ENV["HOME"], ".ssh", "id_rsa")]
 set :application, "rails1"
 
 # repository location
-set :repository, ""
+set :repository, "ssh://git@bitbucket.org/andreasnovak/redmine.git"
 
 # :subversionn or :git
 set :scm, :git
