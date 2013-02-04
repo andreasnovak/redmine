@@ -1,0 +1,43 @@
+10
+
+dir
+11327
+http://svn.redmine.org/redmine/branches/2.2-stable/app
+http://svn.redmine.org/redmine
+
+
+
+2013-01-20T17:09:36.454614Z
+11236
+jplang
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e93f8b46-1217-0410-a6f0-8f06a7374b81
+
+helpers
+dir
+
+models
+dir
+
+controllers
+dir
+
+sweepers
+dir
+
+views
+dir
+
