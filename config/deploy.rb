@@ -65,7 +65,7 @@ set :ssh_options, { :forward_agent => true }
 set :application, "rails1"
 
 # repository location
-set :repository, "test"
+set :repository, "redmine"
 
 # :subversionn or :git
 set :scm, :git
