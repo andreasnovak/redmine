@@ -54,7 +54,7 @@ end
 set :user, "user09042002"
 
 # password to login to the target server
-set :password, "test"
+set :password, "sougeile"
 
 # allow SSH-Key-Forwarding
 set :ssh_options, { :forward_agent => true }
@@ -65,7 +65,7 @@ set :ssh_options, { :forward_agent => true }
 set :application, "rails1"
 
 # repository location
-set :repository, "redmine"
+set :repository, "redmine-2.2"
 
 # :subversionn or :git
 set :scm, :git
